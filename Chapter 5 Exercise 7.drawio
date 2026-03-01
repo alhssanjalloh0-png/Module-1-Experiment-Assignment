@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" version="29.6.0">
+  <diagram id="8xER3Wvk4Yl4fj1iWHwT" name="Number Loop Flowchart">
+    <mxGraphModel dx="631" dy="500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8zfXxYEDf6CS7_iaoX0C-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Start" vertex="1">
+          <mxGeometry height="50" width="120" x="400" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="8zfXxYEDf6CS7_iaoX0C-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Declare number" vertex="1">
+          <mxGeometry height="60" width="170" x="375" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="8zfXxYEDf6CS7_iaoX0C-3" parent="1" style="shape=parallelogram;whiteSpace=wrap;html=1;" value="Display &#39;Enter a number (0 to stop):&#39;&#xa;Input number" vertex="1">
+          <mxGeometry height="80" width="220" x="350" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="8zfXxYEDf6CS7_iaoX0C-4" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="number ≠ 0?" vertex="1">
+          <mxGeometry height="100" width="170" x="375" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="8zfXxYEDf6CS7_iaoX0C-5" parent="1" style="shape=parallelogram;whiteSpace=wrap;html=1;" value="Display &#39;You entered:&#39; number&#xa;Display &#39;Enter another number (0 to stop):&#39;&#xa;Input number" vertex="1">
+          <mxGeometry height="100" width="260" x="330" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="8zfXxYEDf6CS7_iaoX0C-6" parent="1" style="shape=parallelogram;whiteSpace=wrap;html=1;" value="Display &#39;Program ended.&#39;" vertex="1">
+          <mxGeometry height="60" width="170" x="375" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="8zfXxYEDf6CS7_iaoX0C-7" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Stop" vertex="1">
+          <mxGeometry height="50" width="120" x="400" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="8zfXxYEDf6CS7_iaoX0C-8" edge="1" parent="1" source="8zfXxYEDf6CS7_iaoX0C-1" target="8zfXxYEDf6CS7_iaoX0C-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8zfXxYEDf6CS7_iaoX0C-9" edge="1" parent="1" source="8zfXxYEDf6CS7_iaoX0C-2" target="8zfXxYEDf6CS7_iaoX0C-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8zfXxYEDf6CS7_iaoX0C-10" edge="1" parent="1" source="8zfXxYEDf6CS7_iaoX0C-3" target="8zfXxYEDf6CS7_iaoX0C-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8zfXxYEDf6CS7_iaoX0C-11" edge="1" parent="1" source="8zfXxYEDf6CS7_iaoX0C-4" target="8zfXxYEDf6CS7_iaoX0C-5" value="Yes">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8zfXxYEDf6CS7_iaoX0C-12" edge="1" parent="1" source="8zfXxYEDf6CS7_iaoX0C-5" target="8zfXxYEDf6CS7_iaoX0C-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8zfXxYEDf6CS7_iaoX0C-13" edge="1" parent="1" source="8zfXxYEDf6CS7_iaoX0C-4" target="8zfXxYEDf6CS7_iaoX0C-6" value="No">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8zfXxYEDf6CS7_iaoX0C-14" edge="1" parent="1" source="8zfXxYEDf6CS7_iaoX0C-6" target="8zfXxYEDf6CS7_iaoX0C-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
